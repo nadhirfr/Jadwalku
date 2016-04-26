@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.ardpratama.arth.jadwalku.MainActivity" >
+
+            <item
+                android:id="@+id/action_jadwal_full"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_assignment_24dp"
+                android:title="Jadwal Full"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_tugas_besok"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_assessment_24dp"
+                android:title="Tugas Besok"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_tugas_full"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_assessment_24dp"
+                android:title="Tugas Full"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_tambah_tugas"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_assignment_24dp"
+                android:title="Tambah Tugas"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_help_about"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_live_help_24dp"
+                android:title="About"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/action_exit"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_fast_rewind_24dp"
+                android:title="Keluar"
+                app:showAsAction="ifRoom" />
+
+</menu>

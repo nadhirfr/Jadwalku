@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ardpratama.arth.jadwalku">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Jadwalku">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Single List Item Activity -->
+        <activity
+            android:name=".SingleContactActivity"
+            android:label="Jadwal Detail"></activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About Jadwalku"></activity>
+        <activity
+            android:name=".JadwalfullActivity"
+            android:label="Jadwal Lengkap"></activity>
+        <activity
+            android:name=".TambahTugas"
+            android:label="Tambah Tugas"></activity>
+        <activity
+            android:name=".TugasFull"
+            android:label="Tugas Full"></activity>
+        <activity
+            android:name=".SingleTugas"
+            android:label="Tugas Detail"></activity>
+        <activity
+            android:name=".TugasHar"
+            android:label="Tugas Besok"></activity>
+        <activity
+            android:name=".JadwalActivity"
+            android:label="Jadwal Selanjutnya"></activity>
+    </application>
+
+</manifest>
